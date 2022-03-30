@@ -24,11 +24,13 @@ class TheScreenWithOneLabelViewController: UIViewController //secondviewcontroll
     }
     
     @IBAction func btnElfPressed(_ sender: Any) {
-        delegate.receiveData("elf")
+        delegate.receiveData("You selected elf")
+        //we could trigger a "go back" here if we liked
     }
     
     @IBAction func btnHumanPressed(_ sender: Any) {
-        delegate.receiveData("human")
+        delegate.receiveData("You selected human")
+        //we could trigger a "go back" here if we liked
     }
     
     // MARK: - Navigation
