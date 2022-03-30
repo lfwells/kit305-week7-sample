@@ -1,12 +1,11 @@
 //
 //  CharacterRecieverDelegate.swift
-//  garbage
 //
-//  Created by mobiledev on 13/4/21.
+//  Created by Lindsay Wells on 13/4/21.
 //
 
 import Foundation
 
 protocol CharacterRecieverDelegate {
-    func receiveData(_ race : String)
+    //TODO: define the delegate functions
 }

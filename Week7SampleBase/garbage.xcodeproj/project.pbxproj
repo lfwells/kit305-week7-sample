@@ -13,8 +13,6 @@
 		5C3B5E1D26254ECB008BE748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3B5E1B26254ECB008BE748 /* Main.storyboard */; };
 		5C3B5E1F26254ECB008BE748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3B5E1E26254ECB008BE748 /* Assets.xcassets */; };
 		5C3B5E2226254ECB008BE748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3B5E2026254ECB008BE748 /* LaunchScreen.storyboard */; };
-		5C3B5E2D26254ECB008BE748 /* garbageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B5E2C26254ECB008BE748 /* garbageTests.swift */; };
-		5C3B5E3826254ECB008BE748 /* garbageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B5E3726254ECB008BE748 /* garbageUITests.swift */; };
 		5C3B5E492625512F008BE748 /* TheScreenWithOneLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B5E482625512F008BE748 /* TheScreenWithOneLabelViewController.swift */; };
 		5C3B5E4E26255975008BE748 /* CharacterRecieverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B5E4D26255975008BE748 /* CharacterRecieverDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -46,11 +44,7 @@
 		5C3B5E2126254ECB008BE748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3B5E2326254ECB008BE748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3B5E2826254ECB008BE748 /* garbageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = garbageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3B5E2C26254ECB008BE748 /* garbageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbageTests.swift; sourceTree = "<group>"; };
-		5C3B5E2E26254ECB008BE748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3B5E3326254ECB008BE748 /* garbageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = garbageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3B5E3726254ECB008BE748 /* garbageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garbageUITests.swift; sourceTree = "<group>"; };
-		5C3B5E3926254ECB008BE748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3B5E482625512F008BE748 /* TheScreenWithOneLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheScreenWithOneLabelViewController.swift; sourceTree = "<group>"; };
 		5C3B5E4D26255975008BE748 /* CharacterRecieverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRecieverDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				5C3B5E1426254ECB008BE748 /* garbage */,
-				5C3B5E2B26254ECB008BE748 /* garbageTests */,
-				5C3B5E3626254ECB008BE748 /* garbageUITests */,
 				5C3B5E1326254ECB008BE748 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,24 +106,6 @@
 				5C3B5E2326254ECB008BE748 /* Info.plist */,
 			);
 			path = garbage;
-			sourceTree = "<group>";
-		};
-		5C3B5E2B26254ECB008BE748 /* garbageTests */ = {
-			isa = PBXGroup;
-			children = (
-				5C3B5E2C26254ECB008BE748 /* garbageTests.swift */,
-				5C3B5E2E26254ECB008BE748 /* Info.plist */,
-			);
-			path = garbageTests;
-			sourceTree = "<group>";
-		};
-		5C3B5E3626254ECB008BE748 /* garbageUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5C3B5E3726254ECB008BE748 /* garbageUITests.swift */,
-				5C3B5E3926254ECB008BE748 /* Info.plist */,
-			);
-			path = garbageUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3B5E2D26254ECB008BE748 /* garbageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3B5E3826254ECB008BE748 /* garbageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

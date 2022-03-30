@@ -74,9 +74,6 @@
                         <viewLayoutGuide key="safeArea" id="2bd-bH-yhQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="myCoolLabel" destination="OOM-Wr-IEt" id="Rez-SV-WFh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0UR-dP-Us3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
