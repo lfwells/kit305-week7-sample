@@ -7,5 +7,33 @@
 import Foundation
 
 protocol CharacterRecieverDelegate {
-    //TODO: define the delegate functions
+    //TODO: define the delegate functions DONE
+    func recieveData(_ race: String)
 }
+
+/*
+protocol LecturerDelegate
+{
+    func speak()
+    func clickSlides()
+}
+
+
+class Lindsay : LecturerDelegate
+{
+    func speak() {
+        
+    }
+    func clickSlides()
+    {
+        
+    }
+}
+class Nikita : LecturerDelegate
+{
+    func speak()
+    {
+        
+    }
+}
+*/
